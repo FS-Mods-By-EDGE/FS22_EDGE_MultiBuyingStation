@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="53">
+<modDesc descVersion="63">
     <author>EDGE Gaming</author>
-    <version>4.0.0.0</version>
+    <version>1.0.0.0</version>
     <iconFilename>icon.png</iconFilename>
     <title><!-- en=English de=German fr=French es=Spanish ru=Russian pl=Polish it=Italian br=Brazilian-Portuguese cs=Chinese(Simplified) ct=Chinese(Traditional) cz=Czech nl=Netherlands hu=Hungary jp=Japanese kr=Korean pt=Portuguese ro=Romanian tr=Turkish -->
         <en>Multi Filling Station</en>
@@ -21,38 +21,9 @@ Warning stripes can be turned on & off with a convenient button.
 Price: 10.000€
 Size: 6x9.5 Meters
 
--The Buildings supports "Seasons", "Courseplay Six" & "MaizePlus".
-
 -If you find any bugs or got suggestions for improvment, please dont hesitate to contact us on our Github page at https://github.com/FS19-Mods-By-EDGE/
 or Contact EDGEPureGaming on facebook. We have recieved alot of good feedback from here.
-We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)
-
-Changelog 1.0.0.1:
-- Added Bumpmap and Specmap to Decals.
-Changelog 1.1.0.0:
-- Fixed Radiating light from light pole, this previously just illuminated.
-- Added L10N functions and name so it's more understandable for all people, this was prevoisly just in english.
-- Updated the mod with more languages.
-Changelog 2.0.0.0:
-- Created completely new Decal Texture, fitting all decals in one file (performance).
-- Added warning stripes in load area.
-- Added Shaders & Alpha blending, also reflecting on desired areas.
-Changelog 2.5.0.0:
-- Updated to support Seasons mod better.
-Changelog 3.0.0.0:
-- Added button for warning stripes, these can now be turned off without using the UI.
-- Added support for some mod Filltypes.
-- Added support for MaizePlus.
-Changelog 4.0.0.0 Final:
-- New signs, decals & new unload anim.
-- Created new store icons and mod icon.
-- Due to some inquiries about the trigger size, we have made this bigger so its easier to find it.
-- We also added a fill marker witch lights up, this can be turned on & off at the switchbox.
-- Added switches for Lights and added sound to the switches.
-- Fixed a minor issue with the light.
-- Created a gold version of it, so now we have 3 to choose from.
-- Adjusted leveling area.
-- Cleaned up the folder a bit, making it use less performance on consoles.]]></en>
+We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)]]></en>
         <de><![CDATA[Multi Kaufstation. 10% Lieferkosten, 15% auf die Ernte.
 
 Warnstreifen können mit einer praktischen Taste ein- und ausgeschaltet werden.
@@ -60,38 +31,9 @@ Warnstreifen können mit einer praktischen Taste ein- und ausgeschaltet werden.
 Preis: 10.000€
 Größe: 6x9.5 Meter
 
--Die Gebäude unterstützen "Seasons", "Courseplay Six" und "MaizePlus".
-
 -Wenn Sie Fehler finden oder Verbesserungsvorschläge haben, zögern Sie bitte nicht, uns auf unserer Github-Seite unter https://github.com/FS19-Mods-By-EDGE/
 zu kontaktieren oder EDGEPureGaming auf Facebook zu kontaktieren.
-We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)
-
-Änderungsprotokoll 1.0.0.1:
-- Bump Map und Specular Map zu Decals hinzugefügt.
-Änderungsprotokoll 1.1.0.0:
-- Strahlungslicht vom Lichtmast behoben, dieses zuvor nur beleuchtet.
-- Es wurden L10N-Funktionen und -Namen hinzugefügt, damit es für alle verständlicher ist. Dies war bisher nur in Englisch.
-- Der Mod wurde mit mehr Sprachen aktualisiert.
-Änderungsprotokoll 2.0.0.0:
-- Es wurde eine komplett neue Decal-Textur erstellt, die alle Decals in eine Datei (Performance) einfügt.
-- Warnstreifen im Ladebereich hinzugefügt.
-- Decal Shader & Alpha Blending hinzugefügt, das sich auch auf die gewünschten Bereiche auswirkt.
-Änderungsprotokoll 2.5.0.0:
-- Aktualisiert, um den Seasons Mod besser zu unterstützen.
-Änderungsprotokoll 3.0.0.0:
-- Schaltfläche für Warnstreifen hinzugefügt, diese können jetzt ohne Verwendung der Benutzeroberfläche deaktiviert werden.
-- Unterstützung für einige Mod-Fülltypen hinzugefügt.
-- Unterstützung für MaizePlus hinzugefügt.
-Änderungsprotokoll 4.0.0.0 Finale:
-- Neue Schilder, Decals und neue Entladeanimation hinzugefügt.
-- Neue Store- und Mod-Icons erstellt.
-- Aufgrund einiger Anfragen zur Triggergröße haben wir diesen nun vergrößert, damit sie leichter zu finden ist.
-- Wir haben auch einen Fillmarker hinzugefügt, der aufleuchtet. Dieser kann an der Schaltbox ein- und ausgeschaltet werden.
-- Switches for Lights++ hinzugefügt und Sound zu den Switches hinzugefügt.
-- Ein kleines Problem mit dem Licht wurde behoben.
-- Gold-Version davon erstellt, sodass wir jetzt 3 zur Auswahl haben.
-- Leveling-Area angepasst.
-- Der Ordner wurde ein wenig bereinigt, sodass weniger Leistung auf Konsolen nötig ist.]]></de>
+We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)]]></de>
         <fr><![CDATA[Station de remplissage multiple, ici, vous pouvez acheter ce que vous voulez.
 Les livreurs prennent 10% et 15% de toute récolte.
 
@@ -100,38 +42,9 @@ Les bandes d'avertissement peuvent être activées et désactivées avec un bout
 Prix: 10.000€
 Taille: 6x9.5 Mètres
 
--Les bâtiments prennent en charge "Seasons", "Courseplay Six" et "MaizePlus".
-
 -Si vous trouvez des bugs ou avez des suggestions d'amélioration, n'hésitez pas à nous contacter sur notre page Github à https://github.com/FS19-Mods-By-EDGE/
 ou Contacter EDGEPureGaming sur facebook.
-We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)
-
-Changer le journal 1.0.0.1:
-- Ajout de bump map et specular map aux décalcomanies.
-Changer le journal 1.1.0.0:
-- Correction de la lumière rayonnante du pôle, précédemment éclairée.
-- Ajout des fonctions et du nom de la L10N pour que ce soit plus compréhensible pour tout le monde, c'était avant tout en anglais.
-- Mise à jour du mod avec plus de langues.
-Changer le journal 2.0.0.0:
-- Création d'une nouvelle texture de décalque, ajustant tous les décalques dans un seul fichier (performance).
-- Ajout de bandes d'avertissement dans la zone de chargement.
-- Ajout du mélange Decal Shader et Alpha, reflétant également les zones souhaitées.
-Changer le journal 2.5.0.0:
-- Mise à jour pour mieux prendre en charge le mod Seasons.
-Changer le journal 3.0.0.0:
-- Bouton ajouté pour les bandes d'avertissement, celles-ci peuvent maintenant être désactivées sans utiliser l'interface utilisateur.
-- Ajout de la prise en charge de certains mod Filltypes.
-- Ajout de la prise en charge de MaizePlus.
-Changer le journal 4.0.0.0 Finale
-- Nouveaux signes, décalcomanies et nouveau déchargement anim.
-- Création de nouvelles icônes de magasin et icône de mod.
-- En raison de certaines questions concernant la taille du déclencheur, nous l'avons agrandie afin de la retrouver plus facilement.
-- Nous avons également ajouté une sorcière Fillmarker qui s'allume, cela peut être activé et désactivé sur le boîtier de commutation.
-- Ajout de commutateurs pour Lights ++ et ajout de son aux commutateurs.
-- Correction d'un problème mineur avec la lumière.
-- En a créé une version Gold, nous en avons donc maintenant 3 à choisir.
-- Zone de nivellement ajustée.
-- Nettoyé un peu le dossier, ce qui le rend moins performant sur les consoles.]]></fr>
+We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)]]></fr>
         <es><![CDATA[Estación de llenado múltiple.
 Aquí puede comprar cualquier cosa que desee, la gente de entrega se lleva el 10% y el 15% de cualquier cosecha.
 
@@ -140,38 +53,9 @@ Las franjas de advertencia se pueden activar y desactivar con un botón convenie
 Precio: 10.000 €
 Tamaño: 6x9.5 Metros
 
--Los edificios son compatibles con "Seasons", "Courseplay Six" y "MaizePlus".
-
 -Si encuentra algún error u obtiene sugerencias de mejora, no dude en contactarnos en nuestra página de Github en https://github.com/FS19-Mods-By-EDGE/
 o póngase en contacto con EDGEPureGaming en Facebook.
-We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)
-
-Registro de cambios 1.0.0.1:
-- Añadido mapa de relieve y mapa especular a calcomanías.
-Registro de cambios 1.1.0.0:
-- Se arregló la luz de radiación del polo de luz, esto anteriormente solo se ilumina.
-- Se agregaron las funciones y el nombre de la L10N, por lo que es más comprensible para todas las personas, esto fue antes en inglés.
-- Actualizado el mod con más idiomas.
-Registro de cambios 2.0.0.0:
-- Creé una textura de calcomanía completamente nueva, ajustando todas las calcomanías en un archivo (rendimiento).
-- Se agregaron franjas de advertencia en el área de carga.
-- Se agregó Decal Shader y Alpha blending, que también se refleja en las áreas deseadas.
-Registro de cambios 2.5.0.0:
-- Actualizado para admitir mejor el mod Seasons.
-Registro de cambios 3.0.0.0:
-- Botón agregado para franjas de advertencia, ahora se pueden desactivar sin usar la interfaz de usuario.
-- Se agregó soporte para algunos tipos de relleno mod.
-- Se agregó soporte para MaizePlus.
-Registro de cambios 4.0.0.0 Final
-- Nuevos carteles, calcomanías y nuevo anim de descarga.
-- Creó nuevos íconos de tienda e ícono de mod.
-- Debido a algunas consultas sobre el tamaño del disparador, lo hemos ampliado para que sea más fácil encontrarlo.
-- También agregamos una bruja Fillmarker que se enciende, esto se puede encender y apagar en la caja de interruptores.
-- Se agregaron interruptores para Lights ++ y se agregó sonido a los interruptores.
-- Se solucionó un problema menor con la luz.
-- Creamos una versión Gold, así que ahora tenemos 3 para elegir.
-- Área de nivelación ajustada.
-- Limpió un poco la carpeta, haciendo que use menos rendimiento en consolas.]]></es>
+We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)]]></es>
         <ru><![CDATA[Мульти АЗС.
 Здесь вы можете купить все, что захотите, люди, занимающиеся доставкой, получают 10% и 15% на любой урожай.
 
@@ -180,38 +64,9 @@ Registro de cambios 4.0.0.0 Final
 Цена: 10.000 €
 Размер: 6x9.5 Mетра
 
-- Постройки поддерживает «Seasons», «Courseplay Six» и «MaizePlus».
-
 -Если вы обнаружите какие-либо ошибки или получите предложения по улучшению, пожалуйста, не стесняйтесь связаться с нами на нашей странице Github по адресу https://github.com/FS19-Mods-By-EDGE/
 или связаться с EDGEPureGaming на Facebook.
-We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)
-
-Журнал изменений 1.0.0.1:
-- Добавлены карта рельефа и карта отражений в наклейки.
-Журнал изменений 1.1.0.0:
-- Исправлено излучение света от фонарного столба, этот ранее просто светился.
-- Добавлены функции и имя L10N, чтобы оно было более понятным для всех, это было сделано только на английском языке.
-- Обновлен мод с большим количеством языков.
-Журнал изменений 2.0.0.0:
-- Создана совершенно новая текстура декаля, умещающая все наклейки в один файл (производительность).
-- Добавлены предупреждающие полосы в зоне загрузки.
-- Добавлен Decal Shader & Alpha blending, также отражающий нужные области.
-Журнал изменений 2.5.0.0:
-- Обновлен для поддержки мод Seasons лучше.
-История изменений 3.0.0.0:
-- Добавлена кнопка для предупреждающих полос, теперь они могут быть отключены без использования пользовательского интерфейса.
-- Добавлена поддержка некоторых модов Filltypes.
-- Добавлена поддержка MaizePlus.
-История изменений 4.0.0.0 Финал
-- Новые знаки, наклейки и новая анимация выгрузки.
-- Созданы новые значки магазина и значок мода.
-- Из-за некоторых запросов о размере триггера мы увеличили его, чтобы его было легче найти.
-- Мы также добавили индикатор Fillmarker, который загорается, его можно включать и выключать на распределительной коробке.
-- Добавлены переключатели для Lights ++ и добавлен звук для переключателей.
-- Исправлена небольшая проблема со светом.
-- Создана золотая версия, так что теперь у нас есть 3 на выбор.
-- Скорректированная область выравнивания.
-- Немного очищена папка, что снижает производительность на консолях.]]></ru>
+We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)]]></ru>
         <pl><![CDATA[Wielo Nadzienie Stacja.
 Tutaj możesz kupić wszystko, co ci się podoba, a doręczyciele biorą 10%, a 15% na dowolne zbiory.
 
@@ -220,38 +75,9 @@ Paski ostrzegawcze można włączać i wyłączać za pomocą wygodnego przycisk
 Cena: 10.000 €
 Rozmiar: 6x9.5 Metrów
 
-- Budynki obsługują „Seasons”, „Courseplay Six” i „MaizePlus”.
-
 -Jeśli znajdziesz jakieś błędy lub masz sugestie dotyczące ulepszeń, nie wahaj się skontaktować z nami na naszej stronie Github pod adresem https://github.com/FS19-Mods-By-EDGE/
 lub Skontaktuj się z EDGEPureGaming na Facebooku.
-We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)
-
-Dziennik zmian 1.0.0.1:
-- Dodano mapę wypukłości i mapę lustrzaną do kalkomanii.
-Dziennik zmian 1.1.0.0:
-- Naprawiono Promieniujące światło z słupka światła, które wcześniej było podświetlone.
-- Dodano funkcje i nazwę L10N, więc jest to bardziej zrozumiałe dla wszystkich ludzi, było to głównie po angielsku.
-- Zaktualizowałem mod z większą liczbą języków.
-Dziennik zmian 2.0.0.0:
-- Utworzono całkowicie nową teksturę kalkomanii, pasującą do wszystkich kalkomanii w jednym pliku (wydajność).
-- Dodano paski ostrzegawcze w obszarze obciążenia.
-- Dodano mieszanie kalkomanii cieniowania i mieszania alfa, odzwierciedlające również pożądane obszary.
-Dziennik zmian 2.5.0.0:
-- Zaktualizowano, aby lepiej obsługiwał modyfikację Seasons.
-Dziennik zmian 3.0.0.0:
-- Dodano przycisk pasków ostrzegawczych, które można teraz wyłączyć bez użycia interfejsu użytkownika.
-- Dodano wsparcie dla niektórych modów Filltypes.
-- Dodano obsługę MaizePlus.
-Dziennik zmian 4.0.0.0 Finał
-- Nowe znaki, naklejki i nowy anim.
-- Utworzono nowe ikony sklepu i ikonę modów.
-- Z powodu pewnych zapytań dotyczących rozmiaru spustu, zwiększyliśmy ten rozmiar, aby łatwiej było go znaleźć.
-- Dodaliśmy również zapalającą się kontrolkę Fillmarker, którą można włączać i wyłączać na skrzynce rozdzielczej.
-- Dodano przełączniki świateł ++ i dodano dźwięk do przełączników.
-- Naprawiono drobny problem ze światłem.
-- Stworzyłem jego złotą wersję, więc teraz mamy 3 do wyboru.
-- Dostosowano obszar poziomowania.
-- Trochę wyczyszczono folder, dzięki czemu zużywa mniej wydajności na konsolach.]]></pl>
+We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)]]></pl>
         <it><![CDATA[Stazione di riempimento multiplo, qui puoi acquistare tutto ciò che desideri.
 Le persone che effettuano la consegna prendono il 10% e il 15% su qualsiasi raccolto.
 
@@ -260,44 +86,15 @@ Le strisce di avvertimento possono essere attivate e disattivate con un comodo p
 Prezzo: 10.000 €
 Dimensioni: 6x9,5 metri
 
--Gli edifici supportano "Seasons", "Courseplay Six" e "MaizePlus".
-
 -Se trovi qualche bug o hai suggerimenti per l'improvvisazione, non esitare a contattarci sulla nostra pagina Github all'indirizzo https://github.com/FS19-Mods-By-EDGE/
 o Contatta EDGEPureGaming su Facebook.
-We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)
-
-Elenco modifiche 1.0.0.1:
-- Aggiunti Bumpmap e Specmap alle decalcomanie.
-Elenco modifiche 1.1.0.0:
-- Corretta la luce radiante dal palo della luce, precedentemente precedentemente illuminata.
-- Aggiunte funzioni e nome L10N, quindi è più comprensibile per tutte le persone, questo era principalmente in inglese.
-- Aggiornato il mod con più lingue.
-Log delle modifiche 2.0.0.0:
-- Creato un nuovo decalcomania, adattando tutte le decalcomanie in un unico file (performance).
-- Aggiunte strisce di avvertimento nell'area di carico.
-- Aggiunti Shader e Alpha blending, riflettendo anche sulle aree desiderate.
-Elenco modifiche 2.5.0.0:
-- Aggiornato per supportare meglio la mod di Seasons.
-Log delle modifiche 3.0.0.0:
-- Aggiunto il pulsante per le strisce di avvertimento, che ora possono essere disattivate senza usare l'interfaccia utente.
-- Aggiunto il supporto per alcuni Filltype mod.
-- Aggiunto il supporto per MaizePlus.
-Log delle modifiche 4.0.0.0 Finale
-- Nuovi segni, decalcomanie e nuove animazioni di scarico.
-- Create nuove icone del negozio e icona mod.
-- A causa di alcune domande sulla dimensione del trigger, l'abbiamo ingrandita in modo che sia più facile trovarla.
-- Abbiamo anche aggiunto una strega Fillmarker che si illumina, questo può essere acceso e spento dalla scatola degli interruttori.
-- Aggiunti interruttori per Lights ++ e audio aggiunto agli interruttori.
-- Risolto un problema minore con la luce.
-- Ne ho creata una versione Gold, quindi ora ne abbiamo 3 tra cui scegliere.
-- Area di livellamento regolata.
-- Pulito un po 'la cartella, facendola usare meno prestazioni su console.]]></it>
+We also need help with translations, that can also be done there. (you will ofcourse be credited in the mod.)]]></it>
     </description>
     <multiplayer supported="true"/>
     <storeItems>
-        <storeItem rootNode="placeable" xmlFilename="data/MultiFillingStation.xml"/>
-        <storeItem rootNode="placeable" xmlFilename="data/MultiFillingStationDark.xml"/>
-        <storeItem rootNode="placeable" xmlFilename="data/MultiFillingStationGold.xml"/>
+        <storeItem xmlFilename="data/MultiFillingStation.xml"/>
+        <storeItem xmlFilename="data/MultiFillingStationDark.xml"/>
+        <storeItem xmlFilename="data/MultiFillingStationGold.xml"/>
     </storeItems>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="store/EDGE_Brand_Logo.dds"/>
@@ -484,4 +281,13 @@ Log delle modifiche 4.0.0.0 Finale
             <it>Imposta le luci su Auto</it>
         </text>
     </l10n>
+    <placeableTypes>
+		<type name="easyWeighStation" parent="simplePlaceable" className="Placeable" filename="$dataS/scripts/placeables/Placeable.lua">
+			<specialization name="weighingStation" />
+			<specialization name="windTurbine" />
+			<specialization name="incomePerHour" />
+			<specialization name="buyingStation" />
+			<specialization name="infoTrigger" />
+		</type>
+	</placeableTypes>
 </modDesc>
