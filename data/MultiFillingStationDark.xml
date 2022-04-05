@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<placeable>
+<placeable type="buyingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs22/1.2.0.0/placeable.xsd">
     <storeData>
         <name>$l10n_name_multifillingstation_Black</name>
         <functions>
@@ -25,7 +25,10 @@
 		</brush>
     </storeData>
     <placeableType>buyingStation</placeableType>
-    <filename>data/MultiFillingStationDark.i3d</filename>
+    <base>
+		<filename>data/MultiFillingStationDark.i3d</filename>
+		<canBeRenamed>true</canBeRenamed>
+	</base>
     <placement testSizeX="6" testSizeZ="9.5" sizeX="6" sizeZ="9.5" useRandomYRotation="false" useManualYRotation="true"/>
     <dayNightObjects>
         <dayNightObject node="5|0|0" visibleDay="true" visibleNight="true" intensityNight="0.6" intensityDay="1"/>
