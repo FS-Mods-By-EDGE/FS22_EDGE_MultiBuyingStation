@@ -202,8 +202,6 @@
         <fillType name="maize"              priceScale="1.15"/>
         <fillType name="potato"             priceScale="1.15"/>
         <fillType name="sugarBeet"          priceScale="1.15"/>
-        <fillType name="grass"              priceScale="1.1"/>
-        <fillType name="oilseedRadish"      priceScale="1.1"/>
         <fillType name="oat"                priceScale="1.15"/>
         <fillType name="rye"                priceScale="1.15"/>
         <fillType name="spelt"              priceScale="1.15"/>
@@ -220,7 +218,6 @@
         <fillType name="poppy"              priceScale="1.15"/>
         <fillType name="poppyFlower"        priceScale="1.15"/>
         <fillType name="hemp"               priceScale="1.15"/>
-        <fillType name="cotton"             priceScale="1.15"/>
         <fillType name="silage"             priceScale="1.10"/>
         <fillType name="forage"             priceScale="1.10"/>
         <fillType name="pigfood"            priceScale="1.10"/>
@@ -229,7 +226,6 @@
         <fillType name="liquidmanure"       priceScale="1.10"/>
         <fillType name="slurry"             priceScale="1.10"/>
         <fillType name="straw"              priceScale="1.10"/>
-        <fillType name="grass"              priceScale="1.10"/>
         <fillType name="drygrass_windrow"   priceScale="1.10"/>
         <fillType name="haypellets"         priceScale="1.10"/>
         <fillType name="strawpellets"       priceScale="1.10"/>
@@ -255,7 +251,6 @@
         <fillType name="FABRIC"             priceScale="1.15"/>
         <fillType name="CLOTHES"            priceScale="1.15"/>
         <fillType name="SUGAR"              priceScale="1.15"/>
-        <fillType name="HONEY"              priceScale="1.15"/>
         <fillType name="CEREAL"             priceScale="1.15"/>
         <fillType name="SUNFLOWER_OIL"      priceScale="1.15"/>
         <fillType name="CANOLA_OIL"         priceScale="1.15"/>
@@ -268,7 +263,6 @@
         <fillType name="CHOCOLATE"          priceScale="1.15"/>
         <fillType name="BOARDS"             priceScale="1.15"/>
         <fillType name="FURNITURE"          priceScale="1.15"/>
-        <fillType name="SILAGE_ADDITIVE"    priceScale="1.15"/>
         <fillType name="MINERAL_FEED"       priceScale="1.15"/>
         <fillType name="STONE"              priceScale="1.15"/>
             <!-- MAIZE Plus -->
