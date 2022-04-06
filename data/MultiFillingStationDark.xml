@@ -177,12 +177,13 @@
 		</updateAreas>
 	</ai>
     <hotspots>
-        <hotspot type="LOADING" linkNode="mapPosition" />
+        <hotspot text="$l10n_EDGEGrainExpressBlack" type="LOADING" linkNode="mapPosition" />
     </hotspots>
     <weighingStation triggerNode="weighingTrigger">
         <display node="displayNode1" font="DIGIT" mask="00000000.0" alignment="RIGHT" size="0.13" emissiveScale="1" color="0.6 0 0 1" hiddenColor="0.05 0.05 0.05 1"/>
+        <display node="displayNode2" font="DIGIT" mask="00000000.0" alignment="RIGHT" size="0.13" emissiveScale="1" color="0.6 0 0 1" hiddenColor="0.05 0.05 0.05 1"/>
     </weighingStation>
-    <buyingStation stationName="$l10n_GrainExpressBlack" node="storageFarm" appearsOnPDA="true" supportsExtension="false">
+    <buyingStation node="storageFarm" appearsOnPDA="true" supportsExtension="false">
         <loadTrigger triggerNode="loadingTrigger" fillLitersPerSecond="2000" infiniteCapacity="true" aiNode="aiNodeLoading" dischargeNode="dischargeNode" fillTypeCategories="FARMSILO BULK LIQUID PIECE WINDROW COMBINE SPRAYER SPREADER MIXERWAGON AUGERWAGON FORAGEWAGON SILAGETRAILER TRAINWAGON FORAGEHARVESTER SLURRYTANK MANURESPREADER FORK SHOVEL FARMSILO HAYLOFT LOADINGVEHICLE PRODUCT PRODUCT_BGA">
             <effectNode effectClass="PipeEffect" effectNode="pipeEffect" materialType="pipe" materialTypeId="1" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
             <effectNode effectNode="pipeEffectSmoke" materialType="smoke" materialTypeId="1" fadeTime="0.5"/>
@@ -428,6 +429,7 @@
         <i3dMapping id="weighingStation_1" node="0>8|0" />
         <i3dMapping id="weighingTrigger" node="0>8|0|0" />
         <i3dMapping id="displayNode1" node="0>8|0|1" />
+        <i3dMapping id="displayNode2" node="0>8|0|2" />
         <i3dMapping id="visuals" node="0>8|1" />
         <i3dMapping id="winter" node="0>8|1|0" />
         <i3dMapping id="display" node="0>8|1|1" />

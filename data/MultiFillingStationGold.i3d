@@ -83,7 +83,7 @@
       <Normalmap fileId="29"/>
       <Glossmap fileId="30"/>
     </Material>
-    <Material name="floodLightGlass_mat" materialId="212" alphaBlending="true" customShaderId="18">
+    <Material name="floodLightGlass_mat" materialId="11" alphaBlending="true" customShaderId="18">
       <Texture fileId="31"/>
       <Normalmap fileId="6"/>
       <Glossmap fileId="32"/>
@@ -104,7 +104,7 @@
       <Normalmap fileId="34"/>
       <Glossmap fileId="35"/>
     </Material>
-    <Material name="lightPoleSetGlass_mat" materialId="213" alphaBlending="true" customShaderId="18" shadingRate="1x2">
+    <Material name="lightPoleSetGlass_mat" materialId="15" alphaBlending="true" customShaderId="18" shadingRate="1x2">
       <Texture fileId="36"/>
       <Normalmap fileId="6"/>
       <Glossmap fileId="37"/>
@@ -356,32 +356,32 @@
           </TransformGroup>
         </TransformGroup>
         <Shape shapeId="33" name="tipCol" visibility="false" static="true" collisionMask="524288" nodeId="176" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-        <Shape shapeId="34" name="floodLight" translation="6.66905e-08 14.9552 2.97093" rotation="90 3.91809e-06 -90" clipDistance="300" nodeId="367" materialIds="10" castsShadows="true" receiveShadows="true" weatherPreventMask="0">
-          <Shape shapeId="35" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="-2.84978e-12 6.92089e-12 20.7348" clipDistance="80" nodeId="368" materialIds="10" castsShadows="true" receiveShadows="true">
-            <TransformGroup name="illum" translation="0 -1.20185e-17 0" nodeId="369" weatherPreventMask="0">
-              <Shape shapeId="36" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="370" materialIds="212" castsShadows="true" receiveShadows="true" weatherPreventMask="0"/>
-              <TransformGroup name="lightHigh" nodeId="371">
-                <Light name="spotLight00" translation="0.04439 0.0059147 0" rotation="0 -90 0" clipDistance="300" nodeId="372" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="18" coneAngle="75" dropOff="2"/>
+        <Shape shapeId="34" name="floodLight" translation="6.66905e-08 14.9552 2.97093" rotation="90 3.91809e-06 -90" clipDistance="300" nodeId="365" materialIds="10" castsShadows="true" receiveShadows="true" weatherPreventMask="0">
+          <Shape shapeId="35" name="floodLight_lamp" translation="-0.00210934 0.154197 -0.001" rotation="-2.84978e-12 6.92089e-12 20.7348" clipDistance="80" nodeId="366" materialIds="10" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="illum" translation="0 -1.20185e-17 0" nodeId="367" weatherPreventMask="0">
+              <Shape shapeId="36" name="glass" translation="0.0373901 0 0" clipDistance="200" nodeId="368" materialIds="11" castsShadows="true" receiveShadows="true" weatherPreventMask="0"/>
+              <TransformGroup name="lightHigh" nodeId="369">
+                <Light name="spotLight00" translation="0.04439 0.0059147 0" rotation="0 -90 0" clipDistance="300" nodeId="370" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="20" coneAngle="80" dropOff="1"/>
               </TransformGroup>
-              <TransformGroup name="lightLow" nodeId="373">
-                <Light name="spotLight01" translation="0.04439 0.0059147 0" rotation="0 -90 0" clipDistance="300" nodeId="374" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="12" coneAngle="50" dropOff="2"/>
+              <TransformGroup name="lightLow" nodeId="371">
+                <Light name="spotLight01" translation="0.04439 0.0059147 0" rotation="0 -90 0" clipDistance="300" nodeId="372" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="18" coneAngle="80" dropOff="1"/>
               </TransformGroup>
             </TransformGroup>
           </Shape>
         </Shape>
-        <Shape shapeId="37" name="streetLight" translation="2.156 -0.355 2.097" rotation="-2.17028e-10 90 0" clipDistance="100" nodeId="375" materialIds="14" castsShadows="true" receiveShadows="true">
-          <TransformGroup name="illum_Auto" nodeId="376">
-            <TransformGroup name="illum" rotation="-4.14672e-25 0 0" nodeId="377" weatherPreventMask="0">
-              <Shape shapeId="38" name="glass" translation="0 0 0.000256801" clipDistance="100" nodeId="378" materialIds="213" castsShadows="true" receiveShadows="true" minuteOfDayStart="1050" minuteOfDayEnd="510" weatherRequiredMask="64"/>
-              <TransformGroup name="lightHigh" nodeId="379">
-                <Light name="spotLight02" translation="-2.90678 10.8345 -7.15256e-07" rotation="-90 0 0" clipDistance="120" nodeId="380" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="20" coneAngle="110" dropOff="1.5" weatherPreventMask="0"/>
+        <Shape shapeId="37" name="streetLight" translation="2.156 -0.355 2.097" rotation="-2.17028e-10 90 0" clipDistance="100" nodeId="185" materialIds="14" castsShadows="true" receiveShadows="true">
+          <TransformGroup name="illum_Auto" nodeId="186">
+            <TransformGroup name="illum" rotation="-4.14672e-25 0 0" nodeId="187" weatherPreventMask="0">
+              <Shape shapeId="38" name="glass" translation="0 0 0.000256801" clipDistance="100" nodeId="188" materialIds="15" castsShadows="true" receiveShadows="true" minuteOfDayStart="1050" minuteOfDayEnd="510" weatherRequiredMask="64"/>
+              <TransformGroup name="lightHigh" nodeId="189">
+                <Light name="spotLight02" translation="-2.90678 10.8345 -7.15256e-07" rotation="-90 0 0" clipDistance="120" nodeId="190" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="20" coneAngle="110" dropOff="1.5" weatherPreventMask="0"/>
               </TransformGroup>
-              <TransformGroup name="lightLow" nodeId="381" weatherPreventMask="0">
-                <Light name="spotLight03" translation="-2.90678 10.8345 -7.15256e-07" rotation="-90 0 0" clipDistance="120" nodeId="382" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="10" coneAngle="75" dropOff="2" weatherPreventMask="0"/>
+              <TransformGroup name="lightLow" nodeId="191" weatherPreventMask="0">
+                <Light name="spotLight03" translation="-2.90678 10.8345 -7.15256e-07" rotation="-90 0 0" clipDistance="120" nodeId="192" type="spot" color="0.8 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="10" coneAngle="75" dropOff="2" weatherPreventMask="0"/>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
-          <Shape shapeId="39" name="col" translation="-1.13481 3.96058 -4.00543e-07" visibility="false" static="true" density="0.0001" nodeId="383" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="39" name="col" translation="-1.13481 3.96058 -4.00543e-07" visibility="false" static="true" density="0.0001" nodeId="193" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </Shape>
         <TransformGroup name="warningStripes" translation="0 0.051 5.74" scale="0.817483 1 0.749622" visibility="false" nodeId="194">
           <Shape shapeId="40" name="warningStripesCorner1" translation="-5.85 2.47792e-07 3.05" rotation="-180 -0 -180" clipDistance="200" nodeId="195" materialIds="16" receiveShadows="true" decalLayer="1"/>

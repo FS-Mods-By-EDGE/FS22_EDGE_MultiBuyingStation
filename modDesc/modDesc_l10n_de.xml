@@ -4,9 +4,9 @@
 <translator>Castiga</translator>
 	<texts>
 			<!--Names and Descriptions-->
-		<text name="GrainExpress"    						text="EDGE Korn Befüllung"/>
-		<text name="GrainExpressBlack"    					text="EDGE Korn Schwarz Befüllung"/>
-		<text name="GrainExpressGold"    					text="EDGE Korn Gold Befüllung"/>
+		<text name="EDGEGrainExpress"    						text="EDGE Korn Befüllung"/>
+		<text name="EDGEGrainExpressBlack"    					text="EDGE Korn Schwarz Befüllung"/>
+		<text name="EDGEGrainExpressGold"    					text="EDGE Korn Gold Befüllung"/>
 			<!--Actions-->
 		<text name="action_turnOnMarking"					text="Triggersymbol anzeigen"/>
 		<text name="action_turnOffMarking"    				text="Triggersymbol ausblenden"/>

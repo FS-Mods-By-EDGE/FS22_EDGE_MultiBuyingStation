@@ -4,9 +4,9 @@
 <translator>Castiga</translator>
 	<texts>
 			<!--Names and Descriptions-->
-		<text name="GrainExpress"    						text="EDGE Зерна Экспресс"/>
-		<text name="GrainExpressBlack"    					text="EDGE Зерна Экспресс Черный"/>
-		<text name="GrainExpressGold"    					text="EDGE Зерна Экспресс золото"/>
+		<text name="EDGEGrainExpress"    						text="EDGE Зерна Экспресс"/>
+		<text name="EDGEGrainExpressBlack"    					text="EDGE Зерна Экспресс Черный"/>
+		<text name="EDGEGrainExpressGold"    					text="EDGE Зерна Экспресс золото"/>
 			<!--Actions-->
 		<text name="action_turnOnMarking"					text="Показать предупреждение полосы"/>
 		<text name="action_turnOffMarking"    				text="Скрыть предупреждение полосы"/>

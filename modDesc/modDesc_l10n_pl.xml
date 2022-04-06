@@ -4,9 +4,9 @@
 <translator>Castiga</translator>
 	<texts>
 			<!--Names and Descriptions-->
-		<text name="GrainExpress"    						text="EDGE Ziarno Wyrazić"/>
-		<text name="GrainExpressBlack"    					text="EDGE Ziarno Wyrazić Czarny"/>
-		<text name="GrainExpressGold"    					text="EDGE Ziarno Wyrazić Złoto"/>
+		<text name="EDGEGrainExpress"    						text="EDGE Ziarno Wyrazić"/>
+		<text name="EDGEGrainExpressBlack"    					text="EDGE Ziarno Wyrazić Czarny"/>
+		<text name="EDGEGrainExpressGold"    					text="EDGE Ziarno Wyrazić Złoto"/>
 			<!--Actions-->
 		<text name="action_turnOnMarking"					text="Pokaż paski ostrzegawcze"/>
 		<text name="action_turnOffMarking"    				text="Ukryj paski ostrzegawcze"/>
