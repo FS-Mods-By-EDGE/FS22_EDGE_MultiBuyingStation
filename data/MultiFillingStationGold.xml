@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<placeable type="buyingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs22/1.2.0.0/placeable.xsd">
+<placeable type="EDGEBuyingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs22/1.2.0.0/placeable.xsd">
     <storeData>
         <name>$l10n_name_multifillingstation_Gold</name>
         <functions>
@@ -24,33 +24,38 @@
 			<tab>tools</tab>
 		</brush>
     </storeData>
-    <placeableType>buyingStation</placeableType>
     <base>
 		<filename>data/MultiFillingStationGold.i3d</filename>
 		<canBeRenamed>true</canBeRenamed>
 	</base>
-    <placement testSizeX="6" testSizeZ="9.5" sizeX="6" sizeZ="9.5" useRandomYRotation="false" useManualYRotation="true"/>
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas>
+            <testArea startNode="testArea1Start" endNode="testArea1End" />
+        </testAreas>
+        <sounds>
+            <place template="siloImp" />
+        </sounds>
+    </placement>
     <lights>
     	<realLights>
     		<low>
-    			<light node="lightLow00" groupIndex="1"/>
-    			<light node="lightLow00" groupIndex="1"/>
+    			<light node="lightLow01" groupIndex="1"/>
     		</low>
     		<high>
     			<light node="lightHigh00" groupIndex="1"/>
     			<light node="lightHigh01" groupIndex="1"/>
     		</high>
     	</realLights>
-    		<group name="$l10n_action_lightAuto" activateTime="17:30" deactivateTime="8:20"/>
+    	<group name="$l10n_action_lightAuto" activateTime="17:30" deactivateTime="8:30"/>
     </lights>
     <clearAreas>
-        <levelArea startNode="start_0" widthNode="width_0" heightNode="height_0"/>
+        <clearArea startNode="start_0" widthNode="width_0" heightNode="height_0"/>
         <clearArea startNode="start_1" widthNode="width_1" heightNode="height_1"/>
     </clearAreas>
     <leveling requireLeveling="true" maxSmoothDistance="5" maxSlope="30" maxEdgeAngle="20">
         <levelAreas>
             <levelArea startNode="start_0" widthNode="width_0" heightNode="height_0"/>
-            <clearArea startNode="start_1" widthNode="width_1" heightNode="height_1"/>
+            <levelArea startNode="start_1" widthNode="width_1" heightNode="height_1"/>
         </levelAreas>
     </leveling>
     <!-- <seasons>
@@ -58,6 +63,7 @@
             <maskArea startNode="Start01" widthNode="Width" heightNode="Height"/>
         </maskAreas>
     </seasons> -->
+    <indoorAreas/>
     <animatedObjects>
         <animatedObject saveId="switch_01" >
             <animation duration="0.1">
@@ -65,7 +71,7 @@
                     <keyFrame time="0.0" rotation="90 0 0"/>
                     <keyFrame time="1.0" rotation="-51 0 0"/>
                 </part>
-                <part node="col_2">
+                <part node="illum_11">
                     <keyFrame time="0.0" visibility="true"/>
 					<keyFrame time="1" visibility="false" />
                 </part>
@@ -82,7 +88,7 @@
                     <keyFrame time="1.0" visibility="true"/>
                 </part>
             </animation>
-            <controls triggerNode="playerTrigger_0" posAction="ACTIVATE_HANDTOOL" posText="action_lightOn" negText="naction_lightOff" />
+            <controls triggerNode="playerTrigger_0" posAction="ACTIVATE_HANDTOOL" posText="action_lightOff" negText="action_lightOn" />
             <sounds>
                 <moving file="$data/sounds/player/flashlight/flashlight.ogg" loops="1" linkNode="lightswitch01" volume="0.8" radius="25" innerRadius="3" fadeOut="0.25"/>
             </sounds>
@@ -170,11 +176,14 @@
 			<updateArea startNode="tipOcclusionAreaStart" endNode="width_2" />
 		</updateAreas>
 	</ai>
+    <hotspots>
+        <hotspot text="$l10n_GrainExpressGold" type="LOADING" linkNode="mapPosition" />
+    </hotspots>
     <weighingStation triggerNode="weighingTrigger">
         <display node="displayNode1" font="DIGIT" mask="00000000.0" alignment="RIGHT" size="0.13" emissiveScale="1" color="0.6 0 0 1" hiddenColor="0.05 0.05 0.05 1"/>
     </weighingStation>
-    <buyingStation stationName="$l10n_GrainExpressGold" appearsOnPDA="true" storageRadius="0" fillSoundIdentifier="fillSound01" showHotspotText="false">
-        <loadTrigger triggerNode="loadingTrigger" fillLitersPerSecond="2000" infiniteCapacity="true" dischargeNode="dischargeNode">
+    <buyingStation stationName="$l10n_GrainExpressGold" node="storageFarm" appearsOnPDA="true" supportsExtension="false">
+        <loadTrigger triggerNode="loadingTrigger" fillLitersPerSecond="2000" infiniteCapacity="true" aiNode="aiNodeLoading" dischargeNode="dischargeNode" fillTypeCategories="FARMSILO BULK LIQUID PIECE WINDROW COMBINE SPRAYER SPREADER MIXERWAGON AUGERWAGON FORAGEWAGON SILAGETRAILER TRAINWAGON FORAGEHARVESTER SLURRYTANK MANURESPREADER FORK SHOVEL FARMSILO HAYLOFT LOADINGVEHICLE PRODUCT PRODUCT_BGA">
             <effectNode effectClass="PipeEffect" effectNode="pipeEffect" materialType="pipe" materialTypeId="1" fadeTime="0.5" maxBending="0" controlPoint="3.75 0 0 0"/>
             <effectNode effectNode="pipeEffectSmoke" materialType="smoke" materialTypeId="1" fadeTime="0.5"/>
         </loadTrigger>
@@ -215,7 +224,6 @@
         <fillType name="forage"             priceScale="1.10"/>
         <fillType name="pigfood"            priceScale="1.10"/>
         <fillType name="woodchips"          priceScale="1.15"/>
-        <fillType name="tarp"               priceScale="1.10"/>
         <fillType name="cowfood"            priceScale="1.10"/>
         <fillType name="liquidmanure"       priceScale="1.10"/>
         <fillType name="slurry"             priceScale="1.10"/>
@@ -282,9 +290,13 @@
         <triggerMarker node="warningStripesCorner2"/>
         <triggerMarker node="warningStripesCorner3"/>
         <triggerMarker node="warningStripesCorner4"/>
+        <triggerMarker node="illum_9" filename="$data/shared/assets/marker/markerIcons.xml" id="LOAD" />
         <triggerMarker node="wrench_marker" filename="$data/shared/assets/marker/markerIcons.xml" id="WRENCH" adjustToGround="false" />
     </triggerMarkers>
     <i3dMappings>
+        <i3dMapping id="testArea1Start" node="0>3|4" />
+        <i3dMapping id="testArea1End" node="0>3|4|0" />
+        <i3dMapping id="aiNodeLoading" node="0>1|0|1" />
         <i3dMapping id="MultiFillingStation" node="0>" />
         <i3dMapping id="logoEDGE" node="0>0" />
         <i3dMapping id="gameplay" node="0>1" />
@@ -363,7 +375,7 @@
         <i3dMapping id="lightMark" node="0>1|4|0|0|1" />
         <i3dMapping id="triggerIcons_Load" node="0>1|5" />
         <i3dMapping id="illum_9" node="0>1|5|0" />
-        <i3dMapping id="pointLight_1" node="0>1|5|0|0" />
+        <i3dMapping id="pointLight_1" node="0>1|5|1" />
         <i3dMapping id="MultiFillingStation_vis" node="0>2" />
         <i3dMapping id="farmSiloSmallUnloadingPipe" node="0>2|0" />
         <i3dMapping id="signBack" node="0>2|1" />
