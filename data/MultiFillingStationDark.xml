@@ -170,7 +170,9 @@
             </sounds>
         </animatedObject>
     </animatedObjects>
-    <tipOcclusionUpdateArea sizeX="6" sizeZ="9.5"/>
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionAreaStart" endNode="width_2" />
+    </tipOcclusionUpdateAreas>
     <ai>
 		<updateAreas>
 			<updateArea startNode="tipOcclusionAreaStart" endNode="width_2" />

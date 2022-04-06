@@ -183,7 +183,6 @@ We also need help with translations, that can also be done there. (you will ofco
     <placeableTypes>
 		<type name="EDGEBuyingStation" parent="simplePlaceable" className="Placeable" filename="$dataS/scripts/placeables/Placeable.lua">
 			<specialization name="weighingStation" />
-			<specialization name="windTurbine" />
 			<specialization name="incomePerHour" />
 			<specialization name="buyingStation" />
 			<specialization name="infoTrigger" />
