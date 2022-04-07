@@ -198,7 +198,6 @@
         <fillTypeCategory name="FORAGEWAGON"	 priceScale="1.10"/>
         <fillTypeCategory name="FORK"	         priceScale="1.10"/>
         <fillTypeCategory name="HAYLOFT"	     priceScale="1.10"/>
-        <fillTypeCategory name="LIQUID"	         priceScale="1.10"/>
         <fillTypeCategory name="LOADINGVEHICLE"  priceScale="1.10"/>
         <fillTypeCategory name="MANURESPREADER"	 priceScale="1.10"/>
         <fillTypeCategory name="MIXERWAGON"	     priceScale="1.10"/>
@@ -558,7 +557,6 @@
 		<fillType name="SUNFLOWEROIL"            priceScale="1.10"/>
 		<fillType name="TABACCO"     	         priceScale="1.10"/>
 		<fillType name="TAR"      		         priceScale="1.10"/>
-		<fillType name="TARP"      		         priceScale="1.10"/>
 		<fillType name="TOBACCO"                 priceScale="1.10"/>
 		<fillType name="TOMATO"                  priceScale="1.10"/>
 		<fillType name="TOMATOJUICE" 	         priceScale="1.10"/>
@@ -581,7 +579,6 @@
 		<fillType name="WATER"                   priceScale="0"/>
 		<fillType name="WATERMELON"              priceScale="1.10"/>
 		<fillType name="WATERMELONJUICE"         priceScale="1.10"/>
-		<fillType name="WEED"                    priceScale="1.10"/>
 		<fillType name="WHEAT"                   priceScale="1.10"/>
 		<fillType name="WHEATFLOUR"  	         priceScale="1.10"/>
 		<fillType name="WHEATGRIST"  	         priceScale="1.10"/>
@@ -607,6 +604,7 @@
 		<fillType name="YOGURT"                  priceScale="1.10"/>
 		<fillType name="ZEMENT" 		         priceScale="1.10"/>
 		<fillType name="ZUCKER"    	  	         priceScale="1.10"/>
+        <fillTypeCategory name="LIQUID"	         priceScale="1.10"/>
     </buyingStation>
     <triggerMarkers>
         <triggerMarker node="warningStripesCorner1"/>
