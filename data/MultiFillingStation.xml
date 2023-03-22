@@ -543,6 +543,7 @@
 		<fillType name="STEIN_GRAU"              priceScale="1.10"/>
 		<fillType name="STEIN_ROT"    	         priceScale="1.10"/>
 		<fillType name="STONE"                   priceScale="1.10"/>
+		<fillType name="IRONORE"                   priceScale="1.10"/>
 		<fillType name="STONESALT"               priceScale="1.10"/>
 		<fillType name="STRAW"        	         priceScale="1.10"/>
 		<fillType name="STRAWBERRY"              priceScale="1.10"/>
