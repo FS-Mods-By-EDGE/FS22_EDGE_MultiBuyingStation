@@ -328,7 +328,6 @@
 		<fillType name="DRYCANOLA"     	         priceScale="1.10"/>
 		<fillType name="DRYCLOVER_WINDROW"       priceScale="1.10"/>
 		<fillType name="DRYGRASS_WINDROW"        priceScale="1.10"/>
-		<fillType name="DRYGRASS" 		         priceScale="1.10"/>
 		<fillType name="DRYLUCERNE_WINDROW"      priceScale="1.10"/>
 		<fillType name="DRYLUCERNE"  	         priceScale="1.10"/>
 		<fillType name="DRYMILLET"     	         priceScale="1.10"/>
@@ -370,7 +369,6 @@
 		<fillType name="GRAPEJUICE"              priceScale="1.10"/>
 		<fillType name="GRASS_FERMENTED"         priceScale="1.10"/>
 		<fillType name="GRASS_WINDROW"           priceScale="1.10"/>
-		<fillType name="GRASS"                   priceScale="1.10"/>
 		<fillType name="GRAVEL"       	         priceScale="1.10"/>
 		<fillType name="HAYPELLETS"              priceScale="1.10"/>
 		<fillType name="HEMP"   		         priceScale="1.10"/>
@@ -441,7 +439,6 @@
 		<fillType name="OAT"    		         priceScale="1.10"/>
 		<fillType name="OATFLOUR"                priceScale="1.10"/>
 		<fillType name="OATGRIST"                priceScale="1.10"/>
-		<fillType name="OILSEEDRADISH"           priceScale="1.10"/>
 		<fillType name="OLIVE_OIL"               priceScale="1.10"/>
 		<fillType name="OLIVE"      	         priceScale="1.10"/>
 		<fillType name="OLIVES"      	         priceScale="1.10"/>
@@ -476,8 +473,6 @@
 		<fillType name="PLUMJUICE"    	         priceScale="1.10"/>
 		<fillType name="POMACE" 		         priceScale="1.10"/>
 		<fillType name="POPCORN"   		         priceScale="1.10"/>
-		<fillType name="POPLAR" 		         priceScale="1.10"/>
-		<fillType name="POPLAR"                  priceScale="1.10"/>
 		<fillType name="POPPY"                   priceScale="1.10"/>
 		<fillType name="POTASSIUM"               priceScale="1.10"/>
 		<fillType name="POTATO"                  priceScale="1.10"/>
@@ -506,7 +501,6 @@
 		<fillType name="RYE"         	         priceScale="1.10"/>
 		<fillType name="RYEFLOUR"                priceScale="1.10"/>
 		<fillType name="SAHNE"                   priceScale="1.10"/>
-		<fillType name="SALT"       	         priceScale="1.10"/>
 		<fillType name="SAND"    		         priceScale="1.10"/>
 		<fillType name="SAUSAGE"  	  	         priceScale="1.10"/>
 		<fillType name="SCHWEINEFLEISCH"         priceScale="1.10"/>
@@ -601,7 +595,6 @@
 		<fillType name="WOODSECTIONS" 	         priceScale="1.10"/>
 		<fillType name="WOOL"        	         priceScale="1.10"/>
 		<fillType name="WURST"                   priceScale="1.10"/>
-		<fillType name="YEAST" 		  	         priceScale="1.10"/>
 		<fillType name="YOGHURT"                 priceScale="1.10"/>
 		<fillType name="YOGURT"                  priceScale="1.10"/>
 		<fillType name="ZEMENT" 		         priceScale="1.10"/>
