@@ -309,7 +309,6 @@
 		<fillType name="COMPOST"                 priceScale="1.10"/>
 		<fillType name="CONCRETE"                priceScale="1.10"/>
 		<fillType name="COOKINGOIL"              priceScale="1.10"/>
-		<fillType name="COTTON" 		         priceScale="1.10"/>
 		<fillType name="COWFEED"                 priceScale="1.10"/>
 		<fillType name="CRANBERRY"               priceScale="1.10"/>
 		<fillType name="CRANBERRYJUICE"          priceScale="1.10"/>
@@ -375,8 +374,6 @@
 		<fillType name="HERBICIDE"               priceScale="1.10"/>
 		<fillType name="HMILK"                   priceScale="1.10"/>
 		<fillType name="HOLZSTAMM"    	         priceScale="1.10"/>
-		<fillType name="HONEY"                   priceScale="1.10"/>
-		<fillType name="HONEYBEES"  	         priceScale="1.10"/>
 		<fillType name="HONEYCOMBS_EMPTY"        priceScale="1.10"/>
 		<fillType name="HONEYCOMBS_FULL"         priceScale="1.10"/>
 		<fillType name="HONEYMILK"     	         priceScale="1.10"/>
@@ -507,7 +504,6 @@
 		<fillType name="SEEDS" 		  	         priceScale="1.10"/>
 		<fillType name="SHEEPFEED" 		         priceScale="1.10"/>
 		<fillType name="SHEEPMILK"               priceScale="1.10"/>
-		<fillType name="SILAGE_ADDITIVE"         priceScale="1.10"/>
 		<fillType name="SILAGE"    		         priceScale="1.10"/>
 		<fillType name="SILAGENEW"               priceScale="1.10"/>
 		<fillType name="SILOGRASS" 		         priceScale="1.10"/>
@@ -585,7 +581,6 @@
 		<fillType name="WINE" 		  	         priceScale="1.10"/>
 		<fillType name="WINE"  	  		         priceScale="1.10"/>
 		<fillType name="WINEBARREL"              priceScale="1.10"/>
-		<fillType name="WOOD"			         priceScale="1.10"/>
 		<fillType name="WOODBAR"                 priceScale="1.10"/>
 		<fillType name="WOODBARREL"              priceScale="1.10"/>
 		<fillType name="WOODBEAMS"               priceScale="1.10"/>
